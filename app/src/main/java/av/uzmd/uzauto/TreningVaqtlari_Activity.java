@@ -1,8 +1,10 @@
-package com.example.uzauto;
+package av.uzmd.uzauto;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import av.uzmd.uzauto.R;
 
 public class TreningVaqtlari_Activity extends AppCompatActivity {
 

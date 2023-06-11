@@ -1,4 +1,4 @@
-package com.example.uzauto.useingretrofit;
+package av.uzmd.uzauto.useingretrofit;
 
 
 import java.util.List;

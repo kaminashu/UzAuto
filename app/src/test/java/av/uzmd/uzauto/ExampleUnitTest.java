@@ -1,4 +1,4 @@
-package com.example.uzauto;
+package av.uzmd.uzauto;
 
 import org.junit.Test;
 

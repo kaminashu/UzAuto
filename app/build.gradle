@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.uzauto'
+    namespace 'av.uzmd.uzauto'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.uzauto"
+        applicationId "av.uzmd.uzauto"
         minSdk 22
         targetSdk 33
         versionCode 1

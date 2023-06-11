@@ -1,7 +1,7 @@
  /* This is the source code of SmartSchoolTeacher for Android.
  * Copyright Muhammadsoloyev Akbar , 2019-2020.
  */
-package com.example.uzauto.useingretrofit;
+package av.uzmd.uzauto.useingretrofit;
 
 
  import retrofit2.Retrofit;

@@ -1,4 +1,4 @@
-package com.example.uzauto;
+package av.uzmd.uzauto;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -9,9 +9,10 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
-import com.example.uzauto.useingretrofit.JSONPlaceHolderApi;
-import com.example.uzauto.useingretrofit.ModelJson;
-import com.example.uzauto.useingretrofit.RetroClient;
+import av.uzmd.uzauto.R;
+import av.uzmd.uzauto.useingretrofit.JSONPlaceHolderApi;
+import av.uzmd.uzauto.useingretrofit.ModelJson;
+import av.uzmd.uzauto.useingretrofit.RetroClient;
 
 import java.util.List;
 

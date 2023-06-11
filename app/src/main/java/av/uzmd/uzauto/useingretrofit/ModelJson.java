@@ -1,4 +1,4 @@
-package com.example.uzauto.useingretrofit;
+package av.uzmd.uzauto.useingretrofit;
 
 
 import com.google.gson.annotations.Expose;

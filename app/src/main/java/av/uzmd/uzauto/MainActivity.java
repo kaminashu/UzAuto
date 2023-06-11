@@ -1,8 +1,5 @@
-package com.example.uzauto;
+package av.uzmd.uzauto;
 
-import static android.content.ContentValues.TAG;
-
-import androidx.annotation.ColorRes;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.room.Room;
@@ -11,7 +8,6 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.util.Log;
@@ -19,18 +15,14 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 
-import com.example.uzauto.database.AppDatabase;
-import com.example.uzauto.database.UserDao;
-import com.example.uzauto.database.UserModel;
-import com.example.uzauto.useingretrofit.JSONPlaceHolderApi;
-import com.example.uzauto.useingretrofit.ModelJson;
-import com.example.uzauto.useingretrofit.RetroClient;
+import av.uzmd.uzauto.R;
+import av.uzmd.uzauto.database.AppDatabase;
+import av.uzmd.uzauto.useingretrofit.JSONPlaceHolderApi;
+import av.uzmd.uzauto.useingretrofit.ModelJson;
+import av.uzmd.uzauto.useingretrofit.RetroClient;
 
 
-import java.io.IOException;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import retrofit2.Call;
 import retrofit2.Callback;

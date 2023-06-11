@@ -1,4 +1,4 @@
-package com.example.uzauto;
+package av.uzmd.uzauto;
 
 import android.text.Editable;
 import android.text.TextWatcher;

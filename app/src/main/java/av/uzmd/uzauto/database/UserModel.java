@@ -1,4 +1,4 @@
-package com.example.uzauto.database;
+package av.uzmd.uzauto.database;
 
 
 import androidx.room.ColumnInfo;
