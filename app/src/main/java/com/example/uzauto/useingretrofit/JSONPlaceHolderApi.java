@@ -5,6 +5,7 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Query;
 
 
 public interface JSONPlaceHolderApi {
@@ -14,5 +15,8 @@ public interface JSONPlaceHolderApi {
 
     @GET("/shaxsiy/uzautokh/shw_trening.php")
     Call<List<ModelJson>> getTrening();
+
+    @GET("/shaxsiy/uzautokh/update.php")
+    Call<List<ModelJson>> getUpdate(@Query("android_id") String android_id, @Query("tabel_raqam") String tabel_raqam);
     //Call<List<ModelJson>> getTest(@Query("android_id") String android_id, @Query("status") String status, @Query("hisob") int hisob);
 }

@@ -22,8 +22,18 @@ public class ModelJson {
     @Expose
     public String url;
 
+    @SerializedName("android_id")
+    @Expose
+    public String android_id;
 
 
+    public String getandroid_id() {
+        return android_id;
+    }
+
+    public void setandroid_id(String android_id) {
+        this.android_id = android_id;
+    }
     public String gettarif_id() {
         return tarif_id;
     }
